@@ -23,8 +23,6 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = "krisnap770@gmail.com"
 
-# test 
-
 # ===== Fungsi Enkripsi & Dekripsi =====
 def generate_key():
     return get_random_bytes(24)  # 3DES key: 24 bytes
